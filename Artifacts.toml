@@ -1,0 +1,51 @@
+[[NetCDF]]
+arch = "aarch64"
+git-tree-sha1 = "da52499fccd68b3c6fd227688533709858850445"
+libc = "glibc"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "34a74bdc089b3f6ee3051fb1a539a9c08c7ee95b3694f9e170f29d22c9c6a0aa"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v4.7.4+0/NetCDF.v4.7.4.aarch64-linux-gnu.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "4c6ba7f6974be07967d71850efdcbed0488c6e4f"
+libc = "glibc"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "a1b2e8e72c11f30aa8c74d0a25d2443dd66f0f403670f8a1f9e758246c0e39b9"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v4.7.4+0/NetCDF.v4.7.4.i686-linux-gnu.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "302ee1f5fc03442e3e64cfd048d0a015b1d4cceb"
+os = "windows"
+
+    [[NetCDF.download]]
+    sha256 = "ee9e3065dc23d5ab150c2f88c69c85a25f62efbf834a0295f4b1f0c8d8cec6a5"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v4.7.4+0/NetCDF.v4.7.4.i686-w64-mingw32.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "729d96da98302e09c718a0652f125e585ec72943"
+os = "macos"
+
+    [[NetCDF.download]]
+    sha256 = "8d21f64c18ceac1fea6838782f0c411c23b621331c78ff64fdf38a4d2882a4d3"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v4.7.4+0/NetCDF.v4.7.4.x86_64-apple-darwin14.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "fc243e82364ab66b5ff6b069e078cf5a7fc92ce2"
+libc = "glibc"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "ed462c6380242a0b523a7cf98fa39abd43e690f4f26ecb81873990695b3b68a9"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v4.7.4+0/NetCDF.v4.7.4.x86_64-linux-gnu.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "bde5472e8aa0512b49dde365ece4ead2a6cb2885"
+os = "windows"
+
+    [[NetCDF.download]]
+    sha256 = "f8ab2f6747b5960e78b7af9f00834a0b8e29617c97bde685270b710fa2eb7d28"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v4.7.4+0/NetCDF.v4.7.4.x86_64-w64-mingw32.tar.gz"
