@@ -1,42 +1,42 @@
 [[NetCDF]]
 arch = "aarch64"
-git-tree-sha1 = "a1741f7fda8e84537a44c78ce35781c38d6f13ad"
+git-tree-sha1 = "146780a648a1173d65d93d98c9f1a3effb272d20"
 libc = "glibc"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "e95072591434cc38e2ab7236c1234990497a7f38d1b4c004fc89a034aaa55a35"
+    sha256 = "16405661a62275c0488655e0f6e1e60a07237e41a8b69ecf81b85a77b559126e"
     url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.aarch64-linux-gnu.tar.gz"
 [[NetCDF]]
 arch = "i686"
-git-tree-sha1 = "4ca1e7c84dc9eb84d9e34cca6add018ce00a7c09"
+git-tree-sha1 = "a3c993f5df67a6d2d30bf651e3daf5c2669db81c"
 os = "windows"
 
     [[NetCDF.download]]
-    sha256 = "e5373dec20740b877f97ed0595517b2880e2401d15997ca558e2b67583d0573f"
+    sha256 = "f2a15188011bf0bbddc10ad4b53fce503d1f22614db95fde90813db930a86550"
     url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.i686-w64-mingw32.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "6b2a54aba904c55a7de6b15d40d7946fa09beb1a"
+git-tree-sha1 = "0b92c3ca1de2e9dc46a381553278edd25af54980"
 os = "macos"
 
     [[NetCDF.download]]
-    sha256 = "c40b4520b025250b47498420fe52f1d7caec823f9d7bd1575385296531983fb6"
+    sha256 = "958559310bfadc7455a8730571070cd312148f5540afb3ad6038ee356d20473e"
     url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-apple-darwin.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "3f70deafa763f296e4a078ccf6794a2dd1377ae0"
+git-tree-sha1 = "0a7f440ba143b238cc3dd0def2956d34d76755f3"
 libc = "glibc"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "dc6ac9c132121d8dfdd42e78e6e870bf07978120f623bf4811a3ef72676995d7"
+    sha256 = "3b9e1c74e27185c61abb823246872c9c29bb45340eb602aea247b55640020a57"
     url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-linux-gnu.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "d77b6ae933f2487b724ac7a42e797b20c0065218"
+git-tree-sha1 = "a81fe95ac632a7fa76c5e9cbe522c998aee9fa21"
 os = "windows"
 
     [[NetCDF.download]]
-    sha256 = "656412984e1b2c283b540e139a69c519d20de01251207c0107198d3e736fa34f"
+    sha256 = "25c773e931bac494520cf3dcbcab7dd5a7bf38471fe38e0b6daa3ec0edc56d69"
     url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.702.400+0/NetCDF.v400.702.400.x86_64-w64-mingw32.tar.gz"
