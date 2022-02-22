@@ -8,7 +8,7 @@ using LibSSH2_jll
 using MbedTLS_jll
 using nghttp2_jll
 JLLWrappers.@generate_wrapper_header("NetCDF")
-JLLWrappers.@declare_library_product(libnetcdf, "libnetcdf.so.19")
+JLLWrappers.@declare_library_product(libnetcdf, "libnetcdf.so.18")
 function __init__()
     JLLWrappers.@generate_init_header(HDF5_jll, Zlib_jll, LibCURL_jll, LibSSH2_jll, MbedTLS_jll, nghttp2_jll)
     JLLWrappers.@init_library_product(
