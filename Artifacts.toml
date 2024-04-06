@@ -1,143 +1,406 @@
 [[NetCDF]]
 arch = "aarch64"
-git-tree-sha1 = "36cc1606fbbc2c034eedd80c3e8d2214e83eba15"
+git-tree-sha1 = "d0bde318f3a651386660a4faf343e61ee38e90fd"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[NetCDF.download]]
-    sha256 = "6164e7108345a5476ebc0dda843c7e502cf662e883a4b6bce0c349162ae6d3fa"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.aarch64-apple-darwin.tar.gz"
+    sha256 = "4949d1ce8059cbbd73a9f827bebda68765d288ba0afd154446480634c2038deb"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "aarch64"
-git-tree-sha1 = "5842f049e084c8965f33de70de1e97d10017b86a"
+git-tree-sha1 = "138d233651859af7caf0b3b4f88db92ddaf518e4"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[NetCDF.download]]
+    sha256 = "4683ac6dddb5a2b723ca0857926f1a289cf4e23e443026f5cdabbf3bf9a112ee"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "aarch64"
+git-tree-sha1 = "f039ed9dcb0c810edf24204da59fe40235f960c7"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[NetCDF.download]]
+    sha256 = "fa5d89b42e39ea83f3e407cccac774439ee970b2872522290cb42310e6c43d31"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "aarch64"
+git-tree-sha1 = "a05e5b7ce5c5ad8454bb909c3496fdb774b5acec"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "a256e84b1d36754189fc77c9d56d463f1632869ed724de2d41fcafcaade7e44b"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.aarch64-linux-gnu.tar.gz"
+    sha256 = "b81fae19251c14afeb51a880df847d788b57effd775f4adc6e62732316c6031a"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-linux-gnu-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "aarch64"
-git-tree-sha1 = "21204101c4114cfb5e0162c53040271d7fca8a3c"
-libc = "musl"
+git-tree-sha1 = "802b8cae962c5868478441832a91bde7c04f8576"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "fb5a0e8a8a5dba40af3ed48ce764d94a97b77b3dd5bd01eac8abfd92d7a110f9"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.aarch64-linux-musl.tar.gz"
+    sha256 = "5a47dbc98b0b4858958907565345939a543b44cfe1d33cfcf8d1a02d0656cbae"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "aarch64"
+git-tree-sha1 = "91441c1f6953b4524d7520e12ada69762710c2e1"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "14cab609a71a77e7c6aa4fd4cd9317426a9a09f2faed094e074207d8d8c64641"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-linux-gnu-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "aarch64"
+git-tree-sha1 = "a8af9ec968cc860de0fae76b2d839652badc0918"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "05e3690a05938ecb784a2127e1c683018953262afb9ddf9b1d02b851df1f5a16"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[NetCDF]]
+arch = "aarch64"
+git-tree-sha1 = "c08750741cafa86b4e81530597af945a2c0219e7"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "3117356ccbb9bab7b6ee52fde5803badbd433d4ac5561ce8ff1b2f925a7a67b2"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.aarch64-linux-musl-mpi+openmpi.tar.gz"
 [[NetCDF]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "1fbd03207face5adc0cc171f07f3973425bd154b"
+git-tree-sha1 = "76a79228fb547c2782b82b7f7467be0747538247"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "6204734039827f91dc0277fffc4f5a60270118209b4c5513343b86e08dcbdaed"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "0f683132df7b0e91edea633f06327c3d71dd5827aa7ea88b4807b2adecc4c67c"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "e68882e6278e28a4f43fef2efa881ecb01fb45eb"
-libc = "musl"
+git-tree-sha1 = "e26b5fae95c0071c95399bacf3ecc396505cabc7"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "ffd0dd1fa24822ff56e8c24025ee8d7f1a7dce33f3bb14beff60383ee00aa9a2"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "2f1ff1b212ee0cc302d03100c4f6cae3e02a878b68e0e7eef60c6622908fdf83"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "607311dd54b7cae251e0c341a0eb133fba6896b1"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "8d1d5982651ef434d1066a804ad5fd3088972233d0318f678985460de150bb6d"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[NetCDF]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "61585cf34d58dd46cac02dfdfeaa541e2de26422"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "19ecaa047fc935655a55dab8830d77a98589f6a7688c4a277b574534f9a9c244"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv6l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[NetCDF]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "6d1731657ead79ce532b209a51fc5a4b1ab17348"
+git-tree-sha1 = "f9768e409db4ca945752eff468f15dd450d1be23"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "1de88921f9024f0f98e4f492ab53d365c9ba0c7b9a3f57d05d4de4c3af64ac8e"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "65c28dc8e40544187307fd9662cb5e7e638ff8d68f1f6359894ad641fdfdc2cc"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "5b6426fe625e4aa1dc66c63cacc5c5694fb9196d"
-libc = "musl"
-os = "linux"
-
-    [[NetCDF.download]]
-    sha256 = "11bb9fd6afb1b287f46bb50352f7f0f2db43793ff27151e76d2fe1168a3c647a"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.armv7l-linux-musleabihf.tar.gz"
-[[NetCDF]]
-arch = "i686"
-git-tree-sha1 = "95c0d57f7911e892393f2d3509b344a23d723cbd"
+git-tree-sha1 = "ec94592b746c0a1043677fe14c77f6a540d74255"
+lazy = true
 libc = "glibc"
+mpi = "mpitrampoline"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "5715157d535871c75af62ec0f79a877381c65fa4b5ff08117446299e8b4e4f1a"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.i686-linux-gnu.tar.gz"
+    sha256 = "b6d108807a499bc057d819c076a510c1efff6aa87004997c48bc527a5c44c570"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[NetCDF]]
-arch = "i686"
-git-tree-sha1 = "6d53ecaac834b66d2d13fa30d5eade441713c1f1"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "a2b7fe8f99a754a83f8fe8d2ca7a239811f9dd59"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "00632f631eb77cf2b3f219b65c96cae5ae9e941aa1c82e551d0fa55b18ea77a5"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv7l-linux-gnueabihf-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "de7e706e7f238cc8fadd317053ae6f26e57d8036"
+lazy = true
 libc = "musl"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "c644ffb8c7153e9b9c7764aac4426581dc298c98b52ea6cb297a757a2b610ae5"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.i686-linux-musl.tar.gz"
+    sha256 = "de47a7fb89b5fe95632a37f799f323e99d5f220dfb6655e63d37d9af75c5bec4"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[NetCDF]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "2419dce0bdd5661371f6230d69c72422ef260d7e"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "42b3d5b0be5d4fad47f429cc57df9f2634e39ebc005402e3a3b085f613c274a5"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.armv7l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[NetCDF]]
 arch = "i686"
-git-tree-sha1 = "193b5d5d4f5a297914381761b77749f5c8b13187"
+git-tree-sha1 = "da6e6b36355a6794a219b2e09eda1def2e396129"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "4181482828f6f2084202215fb230b5e1aada84f400c35d420bee7b67f91eb092"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.i686-linux-gnu-mpi+mpich.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "bc01f0f74d234eeeb90e50d77e94eec20d98e33a"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "9956222425b8d76a7da45425ef2014032c47e24c24b36bd67ea9fd951e7701d1"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "d0cb2c6fc75dc2b1b704b6780073c25900799cb8"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "6bca97a6a9107e7d02408426117194a8aaeff578f4b6ef21ce092f2d19945e6d"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.i686-linux-gnu-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "29f52098feaa1b1509ac5bd8e60fa48e40b2cd7c"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "83b9ad95e95a0b7c87539611a360d971c4411482d2da4dfd64f6655e4a2630df"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.i686-linux-musl-mpi+mpich.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "6b39cb33f97f19c4db9e05db3609908c196bf44f"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "6ec3375ebe7474153261fe0b66d4c516197d0fbc47f30999ad979cafcac891e2"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.i686-linux-musl-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "i686"
+git-tree-sha1 = "4198269d4da5b1eac519e40c7e3d404c1b4e46cc"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[NetCDF.download]]
-    sha256 = "17b39506a1505e79ee0b0081ec1ab8d10000de3d02c029ee22de8d2180a5e480"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.i686-w64-mingw32.tar.gz"
+    sha256 = "3bed8709e6f3f2d46475b8842527d00d194715bc179c3496f6b8c3d13d8ced5d"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.i686-w64-mingw32-mpi+microsoftmpi.tar.gz"
 [[NetCDF]]
 arch = "powerpc64le"
-git-tree-sha1 = "676dbfa64ee7d73fa2f7d072883d8a02a50f61f1"
+git-tree-sha1 = "641eae0af3446fe8f414b70414d4f4242922efdd"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "660a003d36c1f97ff01446533895285d4c898d0435949894ad782420d3967e17"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "13a00bcba8ca480a86fb4bdc9632968c9c6fdb3019efc17b911c8f32213e45b6"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+[[NetCDF]]
+arch = "powerpc64le"
+git-tree-sha1 = "634729f37285da8d618aca38f177c6b48cccc942"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "868432462d8938be926aa1b5bb7bbe5917aa6eec62308098c5bf65081846d700"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "powerpc64le"
+git-tree-sha1 = "53acabfc79bb25b3169bf2bb0583bdf9f98b5601"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "c3b73a2f8eafff4f7efc0a8801e5afb4aaa7495027707ab3e881f0383e382b9a"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.powerpc64le-linux-gnu-mpi+openmpi.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "2b428a66c3093dd320d08c295dbfe41d9374733e"
+git-tree-sha1 = "d641aea8176cdf7096cca4d9df4938f5e0de7b43"
+lazy = true
+mpi = "mpich"
 os = "macos"
 
     [[NetCDF.download]]
-    sha256 = "913d9c2c3b6da124a5bb2493ff35f7f0807b20a8e7291121392cc4b11a366b57"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.x86_64-apple-darwin.tar.gz"
+    sha256 = "9e7544b34bd75d31a60168276c65452e7a188c8eb4ea818b1f85a65326ac064c"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "6f768703ba6f04e710ab2ac1288209531b902a91"
+git-tree-sha1 = "df201195728ecae9d259829c10bb85928b5823ba"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[NetCDF.download]]
+    sha256 = "717e9cc791a28a0dd9908c3300814795d80705b5e857b900602d8bdf069c0696"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "1b8492118b5cea697c41b9c961aa7860554fd3c3"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[NetCDF.download]]
+    sha256 = "18cf789be362d76d97c35be46a5dad18b86e588beb3841a75354f2692c35a679"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "6205439632c585b34a0ae3e1fdbd87d6a4d51a81"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "6a9809e95788bcede97573aa28f15a2bc645ea8653b5446fd05e4d50d92262bc"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.x86_64-linux-gnu.tar.gz"
+    sha256 = "82ac24b03c0853c762d565dbd2b8dc8e95a61dc0153d53de6645e718fc04ce23"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-linux-gnu-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "96bd3d9580137cac0de079d55a738fe1500c73de"
+git-tree-sha1 = "7e0281010ac282b66ee42e3e551952ec766d6903"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "ea721ebdce6a7d2819c1b3dbc92311865e7bebc7c753dcba825859d44aae58d3"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "0e6efa1634bd5e3defc1a7be42133121471ac346"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "ba46d1e71a9a35e1245458b485cb99e3faa259462539fbac0ee367cc5f9e7816"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-linux-gnu-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "2a2f7a6f78d56a3fc762c05f563b9a1190ead7c4"
+lazy = true
 libc = "musl"
+mpi = "mpich"
 os = "linux"
 
     [[NetCDF.download]]
-    sha256 = "17dbdda3047c39ef60288fab366178bdadf9af879ee3b0f18c656f622ab0ca75"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.x86_64-linux-musl.tar.gz"
+    sha256 = "fa561ccea2313c75d39334628223f2efbd854bdd029def48d2767eaa67ee1756"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-linux-musl-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "2b728436331578355dcadeb32c7a418059edaaea"
+git-tree-sha1 = "9a3315c0fcaa22b84dd5025f759331ce679a90af"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[NetCDF.download]]
+    sha256 = "f2036d0147398118fffd0b0d2954acf92f0f6b8c0bb9f7a04e5f464fb24bfc94"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-linux-musl-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "7b53688ac0a942ca7f5e7689ad51526cf8f38b80"
+lazy = true
+mpi = "mpich"
 os = "freebsd"
 
     [[NetCDF.download]]
-    sha256 = "99d6941cd9d59dfa83ca280e2607da71fb6481abd44a378ba36aa09dc9b47b5a"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "419b71614dd6e68845869c3b53bc61c2ff054e8814fca54ab57f7010f1d01f1c"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
 [[NetCDF]]
 arch = "x86_64"
-git-tree-sha1 = "2706aa1cdbc487585208fccd805e1e58b090dbc3"
+git-tree-sha1 = "7e46654f56acfeebdba771da7bae91809e63dcb2"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[NetCDF.download]]
+    sha256 = "bed3185029ce44d9623142000a3fc82cd265b3856302a3dd56ba6356feab9957"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[NetCDF]]
+arch = "x86_64"
+git-tree-sha1 = "e09d3cf338dbad2c50b745c25856a0a7a1eb497b"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[NetCDF.download]]
-    sha256 = "ad61a0c781682296b6b834f0d6fb7a2da481d3bfa3fd1af43702546215ac719c"
-    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.210+0/NetCDF.v400.902.210.x86_64-w64-mingw32.tar.gz"
+    sha256 = "34d05bb1bd706e44940c8c6997ab3d470eeefc29b81d8e57a2bd758099f2d2e4"
+    url = "https://github.com/JuliaBinaryWrappers/NetCDF_jll.jl/releases/download/NetCDF-v400.902.211+0/NetCDF.v400.902.211.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
