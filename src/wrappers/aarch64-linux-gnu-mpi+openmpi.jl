@@ -11,7 +11,7 @@ using Zstd_jll
 using libzip_jll
 using OpenMPI_jll
 JLLWrappers.@generate_wrapper_header("NetCDF")
-JLLWrappers.@declare_library_product(libnetcdf, "libnetcdf.so.19")
+JLLWrappers.@declare_library_product(libnetcdf, "libnetcdf.so.22")
 JLLWrappers.@declare_executable_product(nc4print)
 JLLWrappers.@declare_executable_product(nccopy)
 JLLWrappers.@declare_executable_product(ncdump)

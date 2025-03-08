@@ -11,7 +11,7 @@ using Zstd_jll
 using libzip_jll
 using MicrosoftMPI_jll
 JLLWrappers.@generate_wrapper_header("NetCDF")
-JLLWrappers.@declare_library_product(libnetcdf, "libnetcdf-19.dll")
+JLLWrappers.@declare_library_product(libnetcdf, "libnetcdf-22.dll")
 JLLWrappers.@declare_executable_product(nc4print)
 JLLWrappers.@declare_executable_product(nccopy)
 JLLWrappers.@declare_executable_product(ncdump)
@@ -22,7 +22,7 @@ function __init__()
     JLLWrappers.@generate_init_header(Blosc_jll, Bzip2_jll, HDF5_jll, LibCURL_jll, XML2_jll, Zlib_jll, Zstd_jll, libzip_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libnetcdf,
-        "bin\\libnetcdf-19.dll",
+        "bin\\libnetcdf-22.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
