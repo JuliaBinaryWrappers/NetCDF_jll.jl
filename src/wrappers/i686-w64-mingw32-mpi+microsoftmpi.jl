@@ -8,6 +8,7 @@ using LibCURL_jll
 using XML2_jll
 using Zlib_jll
 using Zstd_jll
+using libaec_jll
 using libzip_jll
 using MicrosoftMPI_jll
 JLLWrappers.@generate_wrapper_header("NetCDF")
@@ -19,7 +20,7 @@ JLLWrappers.@declare_executable_product(ncgen)
 JLLWrappers.@declare_executable_product(ncgen3)
 JLLWrappers.@declare_executable_product(ocprint)
 function __init__()
-    JLLWrappers.@generate_init_header(Blosc_jll, Bzip2_jll, HDF5_jll, LibCURL_jll, XML2_jll, Zlib_jll, Zstd_jll, libzip_jll, MicrosoftMPI_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(Blosc_jll, Bzip2_jll, HDF5_jll, LibCURL_jll, XML2_jll, Zlib_jll, Zstd_jll, libaec_jll, libzip_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libnetcdf,
         "bin\\libnetcdf-22.dll",
