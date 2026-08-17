@@ -1,6 +1,6 @@
 name = "NetCDF_jll"
 uuid = "7243133f-43d8-5620-bbf4-c2c921802cf3"
-version = "401.1000.100+0"
+version = "401.1000.101+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
@@ -31,8 +31,8 @@ libaec_jll = "1.1.4"
 Blosc_jll = "1.21.6"
 Libdl = "< 0.0.1, 1"
 LazyArtifacts = "< 0.0.1, 1"
-MPIABI_jll = "0.1.3"
-HDF5_jll = "2.1.2"
+MPIABI_jll = "1.0.0"
+HDF5_jll = "2.2.1"
 JLLWrappers = "1.7.0"
 MPICH_jll = "5.0.1"
 Bzip2_jll = "1.0.9"
